@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import connectDb from './config/db.js';
 import { createClient } from 'redis';
-
+import userRoutes from './routes/user.js'
 dotenv.config();
 
 // Connect to MongoDB
@@ -26,7 +26,7 @@ await redisClient.connect(); // Connect to Redis
 const app = express();
 
 // Middleware
-app.use(express.json());
+app.use("api/v1",userRoutes);
 
 // Sample route
 app.get('/', (req, res) => {
