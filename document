@@ -1,0 +1,30 @@
+-------------user
+first we have made two folder inside chat app which are backend and frontend.
+In backend-we created three folder chat,mail,user
+In user we have use this command npm init -y to get package.json file
+In user we have us this command npm i -g to get typescript
+In user we have us this command npx tsc -init to get tscconfig.json
+in tsconfig search target (change to 2020 and inmodule nodenext rootdir uncomment and give /src and outdir ./dist)
+in user commmanfd install  npm i express dotenv mongoose
+in user npm i -D @types/express @types/mongoose @types/dotenv nodemon concurrently
+after that create scr folder in user index.ts file and write this import express from 'express'
+
+const app=express()
+const port=5000;
+app.listen(port,()=>{
+    console.log(`server is running in code${port}`);
+    
+})
+then in command inuser use tsc
+
+go to upstash.com create project and choose javascript ioredis
+in user install npm i redis
+in user npm i -D @types/redis
+
+
+38 min using rabbit mq right now but i am not using to 45 min
+
+in user folder we are using npm i -D @types/amqplib so basically it is used for rabbitmq connection with node.js
+
+-------------------//mail
+npm i express dotnev nodemailer amqplib
