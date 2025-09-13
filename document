@@ -28,3 +28,15 @@ in user folder we are using npm i -D @types/amqplib so basically it is used for 
 
 -------------------//mail
 npm i express dotnev nodemailer amqplib
+---------------1:25:00 to 1:30:00 they are using postman
+
+-------------------//chat
+installing npm init -y;
+npm i express dotnev mongoose jsonwebtoken axios
+
+
+--------------frontend we are using nextjs
+i have used npm create-next-app@latest
+use. in folder name because we want in frontend folder did not want to create any other folder
+and we are not using turbopack and alias
+first we go to js cookie,lucide for icons react-hot-toast download
